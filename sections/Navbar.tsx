@@ -14,8 +14,8 @@ const Navbar = () => {
   return (
     <nav className="border-white border-2 bg-white bg-opacity-10 w-full flex rounded-full justify-between items-center px-5 py-2" role="navigation">
       <div className="text-white text-[24px] flex items-center">
-        <Image src={logo} alt="logo" width={40} height={40} />
-        <p>ANUBIS</p>
+        <Image src={logo} alt="logo" className="w-5 md:w-10" />
+        <p className="text-[20px] md:text-[24px]">ANUBIS</p>
       </div>
 
       <div id="navLinks" className="hidden lg:block z-50">

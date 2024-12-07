@@ -5,10 +5,10 @@ import arrow from "@/assets/arrow-right.svg"
 
 const Purchase = () => {
   return (
-    <div className="flex flex-col items-center mx-10 lg:mx-20 mt-16">
+    <div className="flex flex-col items-center mx-10 lg:mx-20 md:mt-16">
       <h1 className="text-center pt-10 lg:pt-16 leading-[100%] text-[32px] md:text-[64px] font-medium">Instantaneous <br />Token Purchasing</h1>
       <p className="text-center mt-2 mb-10 text-[16px] font-medium">Directly trade tokens as they analyze them on Dexscreener, avoiding any need to switch between apps or platforms.</p>
-      <div className="flex w-full md:flex-row flex-col md:items-center md:justify-center">
+      <div className="flex w-full md:flex-row gap-5 flex-col md:items-center md:justify-center">
         <div className="md:w-[60%]">
             <Image
                 src={left}
