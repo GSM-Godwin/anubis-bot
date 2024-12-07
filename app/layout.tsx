@@ -6,12 +6,12 @@ const oakSans = localFont({
   src: [
     {
       path: '/fonts/oak-sans/OakSans-Regular.ttf',
-      weight: '100',
+      weight: '400',
       style: 'normal',
     },
     {
       path: '/fonts/oak-sans/OakSans-SemiBold.ttf',
-      weight: '200',
+      weight: '600',
       style: 'normal',
     },
     {
@@ -22,6 +22,11 @@ const oakSans = localFont({
     {
       path: '/fonts/oak-sans/OakSans-Bold.ttf',
       weight: '700',
+      style: 'normal',
+    },
+    {
+      path: '/fonts/oak-sans/OakSans-Black.ttf',
+      weight: '900',
       style: 'normal',
     },
   ],
