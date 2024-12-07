@@ -19,7 +19,7 @@ const Footer = () => {
         >
             <h1 className="text-32px md:text-[64px] lg:text-[144px] leading-[90%] mt-5 md:mt-10 font-black text-center">ANUBIS BOT</h1>
             <Image src={gif} alt="gif" className="w-[100px] md:w-[200px] lg:w-[500px]" />
-            <button className="font-semibold text-[12px] md:text-[20px] py-1 md:py-2 px-5 md:px-10 text-[#004F55] bg-[#FFD08B] rounded-2xl">DOWNLOAD EXTENSION</button>
+            <button className="font-semibold text-[12px] md:text-[20px] py-1 md:py-2 px-5 md:px-10 text-[#004F55] bg-[#E7FF87] rounded-2xl">DOWNLOAD EXTENSION</button>
         </div>
         <div className="flex flex-col md:flex-row justify-between p-10 lg:p-20">
             <p className="md:text-[23px] text-center md:text-left font-bold">© 2024.ANUBIS</p>

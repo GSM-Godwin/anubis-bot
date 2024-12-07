@@ -7,7 +7,7 @@ import bg from "@/assets/guide-bg.svg"
 const Guide = () => {
   return (
     <div 
-      className="flex flex-col my-10 lg:my-20 px-10 lg:px-20 items-center pb-10 lg:pb-20"
+      className="flex flex-col my-10 lg:my-0 px-10 lg:px-20 items-center pb-10 lg:pb-20"
       style={{
         backgroundImage: `url(${bg.src})`,
         backgroundSize: "cover",
@@ -15,7 +15,7 @@ const Guide = () => {
         backgroundRepeat: "no-repeat",
     }}  
     >
-      <h1 className="text-[32px] md:text-[64px] mb-10 lg:mb-20 text-center leading-[100%] font-medium">Quick Guide to Anubis Bot</h1>
+        <h1 className="text-[32px] lg:pt-20 md:text-[64px] mb-10 lg:mb-20 text-center leading-[100%] font-medium">Quick Guide to Anubis Bot</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 md:gap-10 lg:gap-16">
         <div>
           <div className="relative">
@@ -29,7 +29,7 @@ const Guide = () => {
         </div>
         <div>
           <div className="relative">
-            <div className="w-[70px] h-[70px] absolute inset-1/2 transform -translate-x-1/2 -top-8 rounded-full bg-[#87FF97] border-8 border-black text-black items-center justify-center flex font-bold text-[24px]">2</div>
+            <div className="w-[70px] h-[70px] absolute inset-1/2 transform -translate-x-1/2 -top-8 rounded-full bg-[#E7FF87] border-8 border-black text-black items-center justify-center flex font-bold text-[24px]">2</div>
             <div className="bg-[#171717] px-10 rounded-3xl w-[250px] md:w-[320px] md:h-[400px] lg:h-[403px] lg:w-[365px]">
             <h3 className="font-semibold text-[20px] pt-20 pb-10">Launch Anubis Bot</h3>
               <p className="text-[16px] pb-10 mb-10 md:pb-0-5">Once the installation is complete, open the extension and log in to your account.</p>
@@ -71,14 +71,13 @@ const Guide = () => {
               alt="arrow"
             />
             <p className="text-[16px] text-center font-semibold mb-2">Begin trading in under 30 seconds</p>
-            <button className="text-[12px] md:text-[16px] text-[#080D1A] bg-[#FFD08B] font-semibold py-2 px-10 rounded-3xl">DOWNLOAD EXTENSION</button>
+            <button className="text-[12px] md:text-[16px] text-[#080D1A] bg-[#E7FF87] font-semibold py-2 px-10 rounded-3xl">DOWNLOAD EXTENSION</button>
           </div>
           
         </div>
       </div>
-      
-    </div>
-  )
+      </div>
+    )
 }
 
 export default Guide

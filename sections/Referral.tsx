@@ -7,7 +7,7 @@ import detail from "@/assets/userdetail.svg"
 const Referral = () => {
   return (
     <div 
-        className="bg-white/5 backdrop-blur-lg flex flex-col m-5 md:m-10 lg:m-20 py-10 md:py-20 rounded-3xl items-center"
+        className="bg-white/5 backdrop-blur-lg flex flex-col m-5 md:m-10 lg:mt-0 lg:mx-20 py-10 md:py-20 rounded-3xl items-center"
         style={{
             backgroundImage: `url(${bg.src})`,
             backgroundSize: "cover",
