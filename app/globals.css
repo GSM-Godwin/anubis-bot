@@ -19,3 +19,59 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.diagonal-line {
+  position: absolute;
+  width: 2px;
+  height: 300px;
+  background-color: #e7ff874d;
+  transform-origin: center;
+}
+
+.animate-top-left {
+  top: 5%;
+  left: 40%;
+  transform: rotate(-45deg);
+  animation: move-diagonal-top-left 1.5s linear infinite;
+}
+
+.animate-bottom-left {
+  top: 60%; 
+  left: 10%;
+  transform: rotate(45deg);
+  animation: move-diagonal-bottom-left 1.5s linear infinite;
+}
+
+.animate-bottom-right {
+  top: 70%;
+  right: 30%;
+  transform: rotate(-45deg);
+  animation: move-diagonal-bottom-right 1.5s linear infinite;
+}
+
+@keyframes move-diagonal-top-left {
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  100% {
+    transform: translate(-500px, -500px) rotate(-45deg);
+  }
+}
+
+@keyframes move-diagonal-bottom-left {
+  0% {
+    transform: translate(0, 0) rotate(45deg);
+  }
+  100% {
+    transform: translate(-500px, 500px) rotate(45deg);
+  }
+}
+
+@keyframes move-diagonal-bottom-right {
+  0% {
+    transform: translate(0, 0) rotate(-45deg);
+  }
+  100% {
+    transform: translate(500px, 500px) rotate(-45deg);
+  }
+}
